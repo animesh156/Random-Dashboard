@@ -1,7 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import { MdDashboard } from "react-icons/md";
 import { AiOutlineSchedule } from "react-icons/ai";
 import { BiSupport } from "react-icons/bi";
 import { IoIosSettings } from "react-icons/io";
+import { BiSolidCalendarEvent } from "react-icons/bi";
+import { HiMiniUserGroup } from "react-icons/hi2";
+import { TiUserAdd } from "react-icons/ti";
 
 export default function Sidebar() {
        
@@ -19,20 +23,20 @@ export default function Sidebar() {
                 </li>
 
                 <li className="flex text-md md:ml-3 lg:ml-0 items-center gap-x-5">
-                    <AiOutlineSchedule size={24} />
+                    <img src="./recruitement.svg" alt="" className="w-[22px] ml-1"/>
                  <p className="md:hidden lg:block">Recruitment</p>  
                 </li>
                 <li className="text-md md:ml-3 lg:ml-0 flex items-center gap-x-5">
-                    <AiOutlineSchedule size={24} />
+                    <img src="./calendar.svg" alt="" className="w-[24px]"/>
                   <p className="md:hidden lg:block">Schedule</p> 
                 </li>
                 <li className="flex text-md md:ml-3 lg:ml-0 items-center gap-x-5">
-                 <AiOutlineSchedule size={24} />
+                <img src="./employee.svg" alt="" className="w-[22px]"/>
                  <p className="md:hidden lg:block">Employee</p>  
                 </li>
 
                 <li className="flex text-md md:ml-3 lg:ml-0 items-center gap-x-5">
-                    <AiOutlineSchedule size={24} />
+                    <img src="./department.svg" alt="" className="w-[26px] " />
                     <p className="md:hidden lg:block">Department</p>  
                 </li>
 
@@ -41,12 +45,12 @@ export default function Sidebar() {
                    <p className="text-xs mb-3">OTHER</p>
 
                    <li className="flex text-md md:ml-3 lg:ml-0 mb-7 mt-5 items-center gap-x-5">
-                    <BiSupport size={24} />
+                    <BiSupport size={24} className="text-gray-400" />
                     <p className="md:hidden lg:block">Support</p>  
                 </li>
 
                 <li className="flex text-md md:ml-3 lg:ml-0 items-center gap-x-5">
-                    <IoIosSettings size={24} />
+                    <IoIosSettings size={24} className="text-gray-400" />
                     <p className="md:hidden lg:block">Settings</p>  
                 </li>
 

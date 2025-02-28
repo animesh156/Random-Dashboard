@@ -16,7 +16,7 @@ export default function Home() {
       <div className="col-span-12  md:col-span-11 lg:col-span-10 flex flex-col m-auto md:m-0 md:p-3.5">
         <Header />
 
-        <div className="border-t md:w-[1057px]  ml-2 border-gray-300 mt-2 md:mt-4"></div>
+        <div className="border-t w-40 lg:w-[1057px]  ml-2 border-gray-300 mt-2 md:mt-4"></div>
 
         <h3 className="md:text-[24px] text-[20px] font-[500] ml-11 mt-5 mb-2 text-black">Dashboard</h3>
 

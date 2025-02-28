@@ -23,7 +23,7 @@ export default function Header() {
       <div className="">
         <ul className="flex items-center gap-x-4 text-gray-400">
           <li>
-            <IoNotificationsOutline size={22} />
+           <img src="./round-notifications.svg" alt=""/>
           </li>
           <li>
             <RiMessage2Fill size={22} />
