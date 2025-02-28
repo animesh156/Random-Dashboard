@@ -13,10 +13,11 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <div className="col-span-12  md:col-span-11 lg:col-span-10 flex flex-col m-auto md:m-0 md:p-3.5">
+      <div className="col-span-12   md:col-span-11 lg:col-span-10 flex flex-col m-auto md:m-0 md:p-3.5">
         <Header />
 
-       
+        <div className="border-t border-gray-300 mt-2 md:mt-4 max-w-xl md:w-full ml-0 md:ml-11"></div>
+
 
         <h3 className="md:text-[24px] text-[20px] font-[500] ml-11 mt-5 mb-2 text-black">Dashboard</h3>
 
