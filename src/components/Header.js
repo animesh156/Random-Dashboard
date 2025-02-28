@@ -7,7 +7,10 @@ import { IoIosMenu } from "react-icons/io";
 
 export default function Header() {
   return (
-    <div className="flex p-3 md:ml-6 justify-between">
+      <div>
+
+<div className="flex p-3 md:ml-6 justify-between">
+      
       {/* Left Section */}
       <div className="flex md:ml-2  gap-x-2 items-center">
         <div className="md:hidden">
@@ -43,5 +46,11 @@ export default function Header() {
         </ul>
       </div>
     </div>
+
+    <div className="border-t lg:ml-11 ml-3 w-80 lg:w-full border-gray-300 mt-2 md:mt-4"></div>
+
+
+      </div>
+    
   );
 }

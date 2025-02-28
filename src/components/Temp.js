@@ -52,7 +52,7 @@ export default function Temp() {
           
           {/* right part */}
           
-            <div className="flex lg:flex-col md:gap-x-3 md:mb-3" >
+            <div className="flex flex-col items-center md:flex-row lg:flex-col md:gap-x-3 md:mb-3" >
 
                 <RecentActivity />
 
