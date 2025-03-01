@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Sidebar from "@/components/Sidebar";
 import Header from "@/components/Header";
-import Temp from "@/components/Temp";
+import DashboardMain from "@/components/DashBoardMain";
 
 export default function Home() {
   return (
@@ -16,13 +16,18 @@ export default function Home() {
       <div className="col-span-12   md:col-span-11 lg:col-span-10 flex flex-col m-auto md:m-0 md:p-3.5">
         <Header />
 
-        <div className="border-t border-gray-300 mt-2 md:mt-4 max-w-xl md:w-full ml-0 md:ml-11"></div>
+        {/* Border */}
+        <div className="border-t  border-gray-300 mt-2 md:mt-4   md:w-[707px] lg:w-[1065px] ml-0 md:ml-11"></div>
 
-
-        <h3 className="md:text-[24px] text-[20px] font-[500] ml-11 mt-5 mb-2 text-black">Dashboard</h3>
+        <h3
+          className="md:text-[24px] text-[20px] font-[500] ml-11 mt-5 mb-2"
+          style={{ color: "rgba(22, 30, 84, 1)" }}
+        >
+          Dashboard
+        </h3>
 
         <div className="flex-grow">
-          <Temp />
+          <DashboardMain />
         </div>
       </div>
     </div>
