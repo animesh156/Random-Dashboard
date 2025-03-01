@@ -28,10 +28,10 @@ export default function Header() {
       <div className="p-1.5 md:p-0">
         <ul className="flex items-center lg:gap-x-4 gap-x-3 text-gray-400">
           <li>
-            <img src="./round-notifications.svg" alt="" />
+            <img src="./round-notifications.svg" alt="notificiation_svg" />
           </li>
           <li>
-            <RiMessage2Fill size={24} className="text-gray-400" />
+          <img src="./chat-dot.svg" alt="chat-dot_svg" className="w-7" />
           </li>
           <li className="avatar ">
             <div className="w-8 rounded-4xl">
