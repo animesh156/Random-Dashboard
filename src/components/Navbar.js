@@ -5,7 +5,7 @@ import { RiMessage2Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa6";
 import { IoIosMenu } from "react-icons/io";
 
-export default function Header() {
+export default function Navbar() {
   return (
     <div className="flex md:p-3 px-3 py-2.5 md:ml-6 w-auto justify-between">
       {/* Left Section */}

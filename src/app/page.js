@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Sidebar from "@/components/Sidebar";
-import Header from "@/components/Header";
-import DashboardMain from "@/components/DashBoardMain";
+import Navbar from "@/components/Navbar";
+import DashboardMain from "@/components/DashboardMain";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="col-span-12   md:col-span-11 lg:col-span-10 flex flex-col m-auto md:m-0 md:p-3.5">
-        <Header />
+        <Navbar />
 
         {/* Border */}
         <div className="border-t  border-gray-300 mt-2 md:mt-4   md:w-[707px] lg:w-[1065px] ml-0 md:ml-11"></div>
