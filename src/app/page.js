@@ -17,7 +17,7 @@ export default function Home() {
         <Navbar />
 
         {/* Border */}
-        <div className="border-t  border-gray-300 mt-2 md:mt-4   md:w-[707px] lg:w-[1065px] ml-0 md:ml-11"></div>
+        <div className="border-t  border-gray-300 mt-2 md:mt-4 w-[380px]  md:w-[707px] lg:w-[1065px] ml-0 md:ml-11"></div>
 
         <h3
           className="md:text-[24px] text-[20px] font-[500] ml-11 mt-5 mb-2"

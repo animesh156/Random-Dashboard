@@ -5,13 +5,13 @@ import UpcomingSchedule from "./UpcomingSchedule";
 
 export default function DashboardMain() {
   return (
-    <div className="flex px-9 gap-x-5 flex-col lg:flex-row items-center ">
+    <div className="flex md:px-9 gap-x-5 flex-col lg:flex-row items-center ">
       {/* left part */}
 
       <div className="flex flex-col items-center">
         <div className="flex md:p-2 flex-col justify-center gap-y-3 items-center md:flex-row gap-x-4 mb-7">
           <div
-            className=" md:h-[136px] w-[350px] md:w-[200px] p-3 rounded-lg"
+            className=" md:h-[136px] w-[350px] md:w-[200px] p-2 rounded-lg"
             style={{
               backgroundColor: "rgba(255, 239, 231, 1)",
               color: "rgba(22, 30, 84, 1)",
