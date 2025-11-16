@@ -4,8 +4,11 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { RiMessage2Fill } from "react-icons/ri";
 import { FaAngleDown } from "react-icons/fa6";
 import { IoIosMenu } from "react-icons/io";
+import Image from "next/image";
 
 export default function Navbar() {
+  const randomImg = `https://picsum.photos/200?random=${Math.random()}`;
+
   return (
     <div className="flex md:p-3 px-3 py-2.5 md:ml-6 w-auto justify-between">
       {/* Left Section */}
@@ -31,13 +34,16 @@ export default function Navbar() {
             <img src="./round-notifications.svg" alt="notificiation_svg" />
           </li>
           <li>
-          <img src="./chat-dot.svg" alt="chat-dot_svg" className="w-7" />
+            <img src="./chat-dot.svg" alt="chat-dot_svg" className="w-7" />
           </li>
           <li className="avatar ">
             <div className="w-8 rounded-4xl">
-              <img
-                src="https://s3-alpha-sig.figma.com/img/40ed/810b/19bda88255a6c220a56cfcf53c020387?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=GXmWp3LcnLQHMk6agVqLOmrg0-3I9FLRAEPJN8901J9GWggooyUL4J4qz6ghR0jIGJISIFunnW3DPkCQnvnDb5fbTe1W29-jNgKTnlQsB73q5wM8Pd5MH4BQ1L1uwObK3vZdGm7Kl0nofNawLzK21CirWTqbj3sIDvJSQwsD9B2~5RrFpGHGe6ujSXJWYgqWdkCAVWc~zeMwYvMUN0DsW4s76~jXg4l0Zg-lTYcpm1zu8wMmpnaB~-cJKeCal8Q5bnzLyAOHlJHvkzvHOx~b624XTNyj4PQeLcIgL8Boe-nzm3H5rXOGwBkfpoRRjoNXwioiHUpJ9LPeRLdMeEHsBQ__"
+              <Image
+                src={randomImg}
                 alt="avatar_img"
+                width={32}
+                height={32}
+                className="rounded-full object-cover"
               />
             </div>
           </li>
